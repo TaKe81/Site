@@ -11,6 +11,10 @@ body {
   background-position: center;
 }
 
+.developer {
+  margin-left: -38px;
+}
+
 .container {
   max-width: 1408px;
   margin: 0 auto;
@@ -83,7 +87,14 @@ body {
 .header-phone:hover,
 .footer-phone:focus,
 .footer-phone:hover {
-  background-image: url("img/icon-phone-alt.svg");
+  background-image: url("img/icon-phone.svg");
+}
+  
+.header-switch,
+.footer-switch {
+  margin-left: 750px;
+  padding-left: 28px;
+  
 }
 
 .page-header a:active,
@@ -93,7 +104,7 @@ body {
 
 .hero-image {
   position: relative;
-  padding-top: 200px;
+  padding-top: 270px;
   height: 798px;
   background-image: url("img/bg-html.png");
   background-repeat: no-repeat;
@@ -171,11 +182,21 @@ body {
   font-size: 72px;
   line-height: 88px;
   font-weight: 500;
-  color: #f9dd79;
+  color: #ffffff;
+}
+
+.subheading-a {
+  margin: 0 0 100px;
+  text-align: center;
+  font-size: 72px;
+  line-height: 88px;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 .text {
   color: #f9dd79;
+  background-image: url("img/infoo.png");
 }
 
 .intro .container {
@@ -220,7 +241,7 @@ body {
 }
 
 .skills-list {
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
 }
 
@@ -244,27 +265,19 @@ body {
 
 .skill-js {
   background-image: url("img/icon-js.svg");
+  background-size: 36px;
 }
 
 .level {
   margin: 0 0 40px;
-  height: 24px;
+  height: 32px;
   text-align: right;
-  background-color: #0b0c23;
-  box-shadow: inset 0 0 12px #f9dd79;
+  background-color: #000000;
+  box-shadow: inset 0 0 12px #e70808;
   border-radius: 12px;
   overflow: hidden;
 }
-
-.skills .level div {
-  margin: 0;
-  height: 24px;
-  letter-spacing: 1px;
-  line-height: 26px;
-  background-color: #5053a8;
-  background-image: url("img/progress-pattern.svg");
-}
-
+ 
 .portfolio {
   margin: 0;
   padding-bottom: 160px;
@@ -311,8 +324,8 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #0b0c23;
-  background-color: #f9dd79;
+  color: #000000;
+  background-color: #c29906;
   box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
   border-radius: 24px;
   transition: background-color 100ms, box-shadow 100ms;
@@ -325,6 +338,35 @@ body {
 }
 
 .button:active {
+  background-color: #b69e4b;
+  box-shadow: none;
+}
+
+.button-a {
+  margin-left: 590px;
+  margin-top: 10px;
+  padding: 24px 24px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #c29906;
+  box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
+  border-radius: 24px;
+  transition: background-color 100ms, box-shadow 100ms;
+}
+
+.button-a:focus,
+.button-a:hover {
+  background-color: #f9e7a8;
+  box-shadow: 0 4px 32px rgba(249, 221, 121, 0.6);
+}
+
+.button-a:active {
   background-color: #b69e4b;
   box-shadow: none;
 }
